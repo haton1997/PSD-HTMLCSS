@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*
+CSS Header
+*/
+
+header {
+    /*background: url("anh/1.png") top center;*/
+    width: 100%;
+    height: 160px;
+}
+header h3.title-main{
+    line-height: 85px;
+    margin-right: 534px;
+    padding: 20px;
+
+}
+header h3.title-main span{
+    color: #02d871;
+}
+header h3.title-main a {
+    color: #bebebe;
+}
+header nav.main-menu ul{
+    list-style-type: none;
+
+}
+header nav.main-menu li{
+    float: left;
+    line-height: 85px;
+    padding-left: 20px;
+
+}
+header nav.main-menu a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+
+}
+header nav.main-menu li .home {
+    color: #4e9d6d;
+}
+.banner{
+    margin-top: -160px;
+    background:url("anh/1.png")top center ;
+    width: 100%;
+    height: 1058px;
+}
+.banner h1{
+    padding-top: 410px;
+    padding-left: 200px;
+    display: table-cell;
+    color: #ffffff;
+}
+.banner p{
+    padding-left: 200px;
+    color: #9d9c9b;
+}
+.banner .submit-banner {
+    padding-left: 200px;
+
+}
+.banner .submit-banner input {
+    background: #02d871;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+}
+
+/*
+**    END HEADER
+*/
+
+/*
+    CSS MAIN CONTAINER
+*/
+/*
+    intro1
+*/
+.main-container{
+    height: 766px;
+}
+.main-container .intro1{
+    background: url("anh/4.png")  center;
+    height: 766px;
+}
+.main-container .intro1 .container-fluid .pull-right{
+    margin-top: 200px;
+    margin-left: 100px;
+}
+.main-container .intro1 .container-fluid .pull-right li{
+    float: left;
+    list-style-type: none;
+    width: 80px;
+    color: #5fe1a4;
+}
+.pur-p{
+    margin-top: 60px;
+    color: #c3c6c8;
+}
+.pull-right input{
+    margin-top: 60px;
+    background: #02d871;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    color: #ffffff;
+}
+/*
+intro2
+*/
+.intro2 .container-fluid{
+    height: 500px;
+    background: #ffffff;
+    padding-left: 170px;
+    background: url("anh/10.png")top center;
+}
+.intro2 .book1{
+    margin-top: 100px;
+    width: 300px;
+    height: 360px;
+    margin-left: 30px;
+}
+.intro2 .book1 img{
+    text-align: center;
+    padding-top: 80px;
+    padding-left: 120px;
+}
+.intro2 .book1 h5{
+    text-align: center;
+    padding-top: 50px;
+    color: #333333;
+}
+.intro2 .book1 p{
+    text-align: center;
+    color: #d7d7d7;
+    padding-top: 25px   ;
+}
+
+
+.intro2 .book2{
+    width: 350px;
+    height: 385px;
+}
+.intro2 .book3{
+    width: 350px;
+    height: 385px;
+}
+
+/*intro3*/
+.intro3 {
+    background: url("anh/12.png")top center;
+    background-color: red;
+    width: 100%;
+    height: 1105px;
+}
+.product{
+   background: #02d771;
+    width: 60%;
+    height: 300px;
+    text-align: justify;
+
+}
+.item{
+
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 30px;
+    float: left;
+}
+.intro3 input{
+    margin-left: 500px;
+    margin-top: 30px;
+    background: #fafafa;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    color:#22dc83;
+    border:1px solid #22dc83;
+
+}
+/*intro4*/
+.intro4 .subscribe{
+    background: url("anh/18.png") top center;
+    width: 100%;
+    height: 360px;
+}
+.intro4 p
+{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    padding-top: 130px;
+}
+.intro4 .btnsubmit2{
+    margin-top: 5px;
+    margin-left: 600px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    background: white;
+    color: #45e297;
+    width: 120px;
+
+}
+/*intro5*/
+.intro5{
+    background: url("anh/20.png")top center;
+    width: 100%;
+    height: 360px;
+}
+.intro5 .message img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 100px;
+    margin-left: 10px;
+    height: 60px;
+}
+.intro5 .col-sm-6{
+    float: left;
+}
+.intro5 .items{
+    margin-top: 20px;
+    border-right:1px solid #ececec ;
+    border-bottom:1px solid #ececec ;
+    margin-left: 10px;
+    text-align: center;
+    padding: 10px;
+}
+/*intro6*/
+.intro6{
+    color: #fafafa;
+    height: 600px;
+}
+.intro6 .our-blog{
+    width: 600px;
+
+    height: 600px;
+    float: left;
+}
+.intro6 .our-blog .main-our{
+    width: 300px;
+    height: 300px;
+    /*background: #02d771;*/
+    margin: 150px;
+    float: left;
+}
+.intro6 .our-blog h3{
+padding-top: 20px;
+    color: #bdbdbd;
+}
+.intro6 .our-blog .icon i{
+  text-align: center;
+    width: 40px;
+    line-height: 30px;
+    border-radius: 100%;
+    background: white;
+    border: 2px solid #02d871
+}
+.intro6 .view {
+    width: 300px;
+    height: 600px;
+    float: left;
+    border-bottom-width: 1px ;
+}
+.intro6 .view .view-image1{
+    width: 250px;
+    height: 350px;
+    margin-top: 200px;
+    filter: drop-shadow(10px 10px 5px white);
+    image-rendering: pixelated;
+
+}
+.intro6 .view .view-image1 h6{
+    color: #382c22;
+    padding: 10px;
+}
+.intro6 .view .view-image1 p{
+    color:#777777;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+/* CSS footer*/
+.footer{
+    background: url("anh/19.png") top center;
+    float: left;
+    width: 100%;
+    height: 457px;
+}
+.footer .f-icons{
+    text-align: center;
+}
+.footer .f-icons i{
+    width: 40px;
+    line-height: 40px;
+    background: #eeeeee;
+    border-radius: 50px;
+
+}
+h3{
+    color: #cecece;
+}
